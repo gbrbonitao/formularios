@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulário HTML</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <form class="formulario" method="post">
+         Deixe seu comentário <br> <br>
+
+        <div class="field">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="" required>
+        </div>
+
+        <div class="field">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="" required>
+        </div>
+
+        <div class="field">
+            <label for="email">Website:</label><br>
+            <input type="website" id="website" name="website" placeholder="" required>
+        </div>
+
+        <div class="field">
+            <label for="comentario">Comentario:</label><br>
+            <textarea name="mensagem" id="mensagem" placeholder="" required></textarea>
+        </div>
+        Observação: Seu comentário será publicado após passar pelo moderador.<br><br>
+
+        <input type="submit" name="acao" value="Enviar">
+    </form>
+</body>
+</html>

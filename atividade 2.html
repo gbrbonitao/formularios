@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulário HTML</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <form class="formulario" method="post">
+         Cadastro academia <br> <br>
+
+        <div class="field">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="" required>
+        </div>
+
+        <div class="field">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="" required>
+        </div>
+
+        <div class="field">
+            <label for="email">Website:</label><br>
+            <input type="website" id="website" name="website" placeholder="" required>
+        </div>
+
+
+        <form>
+    Tipo
+    <input type="radio" name="idade" value="18_22">Tecnico
+    <input type="radio" name="idade" value="23_30">Professor
+    <input type="radio" name="idade" value="mais31">Aluno
+</form>
+
+
+        <label for="cars">Status:</label>
+
+        <select id="cars">
+          <option value="volvo">Ativo</option>
+          <option value="saab">Inativo</option>
+        </select>
+        <br>
+        <form>
+    Data de nascimento: <input type="datetime-local" name="bdaytime">
+</form>
+Perfil
+        <input type="radio" name="idade" value="18_22">Convidado
+        <input type="radio" name="idade" value="23_30">Administrador
+        </form>
+<br>
+
+        <div class="field">
+            <label for="comentario">Observações</label>
+            <textarea name="mensagem" id="mensagem" placeholder="" required></textarea>
+        </div>
+        <form>
+
+    Módulos
+    <input type="radio" name="idade" value="18_22">Compras
+    <input type="radio" name="idade" value="23_30">Biblioteca
+    <input type="radio" name="idade" value="mais31">Academico<br>
+    <input type="radio" name="idade" value="DOC">Documentação
+    <input type="radio" name="idade" value="RH">Recursos humanos
+</form>
+
+        <input type="submit" name="acao" value="Enviar">
+        <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancelar</button>
+
+      </div>
+    </form>
+</body>
+</html>
